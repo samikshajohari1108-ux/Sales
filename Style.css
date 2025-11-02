@@ -1,0 +1,41 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f8f9fa;
+  margin: 0;
+  color: #222;
+}
+
+header {
+  background: #007bff;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+main {
+  width: 90%;
+  max-width: 1000px;
+  margin: 2rem auto;
+}
+
+.summary, .charts, .prediction {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.chart-container {
+  margin-top: 1rem;
+}
+
+footer {
+  background: #007bff;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
